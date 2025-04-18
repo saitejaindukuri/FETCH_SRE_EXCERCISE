@@ -52,7 +52,7 @@ cd FETCH_SRE_EXCERCISE
 ### 2. Set up Python Environment
 
 ```bash
-python -m venv fetch-env
+python3 -m venv fetch-env
 source fetch-env/bin/activate
 ```
 
