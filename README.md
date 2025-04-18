@@ -31,11 +31,11 @@ python --version
 ```
 2. Install Python using Homebrew:
 ```bash
-brew install python3
+brew install python
 ```
 3. Verify installation:
 ```bash
-python3 --version
+python --version
 ```
 
 
@@ -49,20 +49,15 @@ git clone https://github.com/saitejaindukuri/FETCH_SRE_EXCERCISE.git
 cd FETCH_SRE_EXCERCISE
 ```
 
-### 2. Set up Python Environment
 
-```bash
-python3 -m venv fetch-env
-source fetch-env/bin/activate
-```
 
-### 3. Install Required Packages
+### 2. Install Required Packages
 
 ```bash
 pip install pyyaml requests
 ```
 
-### 4. Run the Program
+### 3. Run the Program
 
 ```bash
 python main.py sample.yaml
